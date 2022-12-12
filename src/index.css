@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@font-face {
+  font-family: "yekan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("Fonts/Yekan.eot");
+  src: url("Fonts/Yekan.woff") format("woff"),
+    url("Fonts/Yekan.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: yekan, "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
